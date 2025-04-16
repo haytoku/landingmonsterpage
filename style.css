@@ -1,0 +1,126 @@
+body{
+    background: radial-gradient(transparent 20%, black), #8cc63f;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+.nav{
+    position:absolute;
+    top: 20px;
+    left: 900px;
+}
+
+.nav ul{
+display: inline;
+list-style:none;
+}
+
+
+.nav ul li{
+float:left;
+margin-right:  50px;
+font-size: 20px;
+color:#fff;
+font-weight:  600;
+font-family:sans-serif;
+padding-bottom:20px;
+}
+
+.active, .nav ul li:hover{
+
+
+cursor: pointer;
+border-bottom:  6px solid #8cc63f;
+}
+
+.brand{
+    position:absolute;
+    top:10px;
+    left: 0px;
+}
+
+.brand img{
+    height: 90px;
+}
+
+.hmburger{
+    position: absolute;
+    top: 15px;
+    right:20px;
+    cursor: pointer;
+    font-size:28px;
+    color: #8cc63f;
+}
+
+.drink{
+    position:absolute;
+    top: 220px;
+    left: 260px;
+    font-size: 240px;
+    font-weight: 700;
+    z-index: 1;
+    opacity: 0.6;
+    color: darkgreen;
+    letter-spacing: 0.24em;
+    font-family: sans-serif;
+    transform: scaleY(1.4);
+}
+
+.box{
+    position:absolute;
+    z-index: 99;
+    top: 157px;
+    left: 42.9%;
+
+}
+
+.box img{
+    height: 430px;
+    width: 210px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box:hover{
+    transform: scale(1.08);
+}
+
+.content{
+    position: absolute;
+    top: 615px;
+left: 38px;
+font-size: 26px;
+font-family: cursive;
+padding-left: 15px;
+color: #ececec;
+border-left: 6px solid darkgreen;
+}
+
+.content span{
+    color: #8cc63f;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+a{
+    position: absolute;
+    top: 620px;
+    left: 44.5%;
+    text-decoration: none;
+    border: 3px solid #ececec;
+    color: #fff;
+    border-radius: 32px;
+    font-size: 20px;
+    padding: 17px 32px;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    
+}
+
+a:hover{
+    background: #8cc63f;
+    color: darkgreen;
+    border: none;
+}
